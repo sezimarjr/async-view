@@ -20,5 +20,6 @@ from project import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('async/', views.async_view),
 
 ]
